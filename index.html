@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first responsive website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+
+    <div class="container">
+        
+
+        <div class="main" id="home">
+            <div class="header">
+                <nav>
+                    <a class="logo"href="#home">LOGO</a>
+                    <i onclick="onClick()"class="fas fa-bars fa-2x"></i>
+                    <ul class="menu" id="menu">
+                        <li class="active">Home</li>
+                        <li>Contact</li>
+                        <li>About</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="image"></div>
+
+            <div class="heading">
+                <h1>Explore Today</h1>
+                <button onclick="document.getElementById('section').style.display='block'" class="cta"><a class="btn" href="#read-more">Read more</a></button>
+            </div>
+        </div>
+
+        <div id="read-more">
+
+            <div id="section">
+                <h1>Explore the world</h1>
+                <p><b>Lorem </b>ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam sapiente facere ducimus voluptatibus maxime, vel itaque sit dignissimos voluptas, consequuntur earum aperiam et quas? Praesentium error, ab laboriosam sequi distinctio at illo aut ipsa iure autem exercitationem nihil hic repellat ipsum similique inventore ut facilis quisquam labore rerum et pariatur perferendis. Laborum et neque nobis dolore deserunt consequuntur perspiciatis odio veniam sapiente itaque sed voluptate nostrum aliquid ipsa aliquam nulla recusandae eligendi natus animi, a vero. Necessitatibus, blanditiis at omnis nisi quod esse iste tempore laborum rem, deleniti dicta quisquam harum, beatae cum. Praesentium, eum itaque. Hic, minus nam.</p>     
+            </div>
+        </div>
+
+        <div class="gallery">
+
+        <div class="images" id="img1">
+            <img src="images/image1.jpg" alt="mountains" style="width:100%">
+            <div class="polaroid">
+            <p>Harmonic view...</p>
+            </div>
+        </div>
+
+        <div class="images" id="img2">
+            <img src="images/image2.jpg" alt="5 Terre" style="width:100%">
+            <div class="polaroid">
+            <p>Breathtaking...</p>
+            </div>
+          </div>
+
+          <div class="images" id="img3">
+            <img src="images/image3.jpg" alt="5 Terre" style="width:100%">
+            <div class="polaroid">
+            <p>Warm and cosy...</p>
+            </div>
+          </div>
+
+          </div>
+        <div class="footer">
+            Copyright 2022 M.Oosthuizen
+        </div>
+    </div>
+
+<script src="index.js"></script>    
+</body>
+</html>
